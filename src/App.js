@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import BookList from './components/BookList';
 import BookDetails from './components/BookDetails';
+import Titles from './components/Titles';
 import './App.css';
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         setSearchQuery={setSearchQuery}
         handleSearch={handleSearch}
       />
+      <Titles />
       <BookList books={books} setSelectedBook={setSelectedBook} />
       <BookDetails selectedBook={selectedBook} />
     </div>

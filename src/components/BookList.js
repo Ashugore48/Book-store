@@ -4,8 +4,8 @@ import React from "react";
 const BookList = ({ books, setSelectedBook }) => {
   return (
     <>
+    <p className="text-left mb-4 px-28 text-white text-3xl">More books</p>
       <div className="w-full flex flex-col items-center py-5">
-        <p className="text-center mb-4">More books</p>
         <div className="book-list flex flex-wrap justify-center max-w-screen-xl gap-16">
           {books.map((book, index) => (
             <div
