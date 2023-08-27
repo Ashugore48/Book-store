@@ -5,8 +5,8 @@ import Frame3 from "./assets/Frame 3.png";
 
 const Titles = () => {
   return (
-    <div className="w-full flex flex-col items-center py-5">
-      <div className="flex gap-3">
+    <div className="w-full flex flex-col items-center py-5 mt-14 mb-9">
+      <div className="flex gap-10 ">
         <div className="flex flex-row items-center z-100">
           <img className="w-52 z-10" src={Frame1}></img>
           <div className="w-52 bg-green-700 -ml-5 pl-7 rounded-sm p-3">

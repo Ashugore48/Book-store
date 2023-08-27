@@ -17,7 +17,7 @@ const Navbar = ({ searchQuery, setSearchQuery, handleSearch }) => {
       <p className='mt-2 text-white'>BOOKS</p>
       </div>
       </div>
-      <div className='search-component flex flex-row w-96 gap-4'>
+      <div className='search-component flex flex-row w-2/5 gap-4'>
       <input
         type="text"
         className='block w-full p-2 pl-4 text-sm text-gray-900 border border-gray-300 rounded-sm bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white '
